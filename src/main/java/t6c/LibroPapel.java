@@ -36,6 +36,9 @@ public final class LibroPapel extends Libro implements SeEnvia {
                 " se añade al envío con dirección: " + direccion);
     }
     
-    
+    @Override
+    public void pasarPagina() {
+        System.out.println("El lector pasa la página manualmente");
+    }
     
 }

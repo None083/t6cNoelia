@@ -32,9 +32,12 @@ public final class LibroDigital extends Libro implements SeDescarga {
 
     @Override
     public void descargar() {
-        System.out.println("El libro de digital con isbn " + super.getIsbn() + " y número de KB " + this.numKBytes + 
-                " comienza su descarga");
-        System.out.println(this.hashCode());
+        System.out.println("http://noelia.daw/" + this.hashCode());
+    }
+
+    @Override
+    public void pasarPagina() {
+        System.out.println("Para pasar la página de un toque a la pantalla");
     }
     
     

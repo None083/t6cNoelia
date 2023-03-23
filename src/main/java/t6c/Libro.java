@@ -59,6 +59,6 @@ public abstract class Libro extends Producto implements Comparable<Libro>{
         return Objects.equals(this.isbn, other.isbn);
     }
     
-    
+    public abstract void pasarPagina();
     
 }
